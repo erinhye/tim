@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="ko"  xml:lang="ko">
+	<meta http-equiv="Content-Type" Content="text/html; charset=utf-8" />
+
+<head>
+	<title>Tim the Librian</title>
+
+ 	<link rel="stylesheet" type="text/css" href="stylesheets/basic.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/chat.css">
+  <script src="javascripts/jquery-3.1.0.js"></script>
+  <script src="javascripts/script.js"></script>
+  <script src="javascripts/config.js"></script>
+  <script src="javascripts/apiai.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+ </head>
+<body>
+<div class = "container">
+  <div class = "header">
+		<a href =""><p id ="title"><img src ="images/logo.svg"></p></a>
+    <p id ="desc">Struggling to talk with him? Just say “help” to show the examples.</p>
+  </div>
+  <div class = "contents">
+    <div class = "chat-container">
+      <!-- <div class ="blank-space"></div> -->
+      <div class ="icon oscar"></div>
+
+      <div class ="oscar-chats">Hi, How are you doing?</div>
+
+    </div>
+    <div id = "typing-container">
+      <input id ="input"></input>
+      <div id ="send" onclick = "send();">Send</div>
+      </div>
+  </div>
+
+  <div id = "emojis">
+    <div class = "emoji" onclick ="red();"><img src = "images/red.png"></div>
+    <div class = "emoji" onclick ="green();"><img src = "images/green.png"></div>
+    <div class = "emoji" onclick ="white();"><img src = "images/white.png"></div>
+    <a href ="https://github.com/erinhye" target="_blank"><div class = "emoji"><img src = "images/erin.png"></div></a>
+  </div>
+
+  </div>
+  <div id = "footer-container">
+    <div id = "footer">
+      <p>He was created, named and designed by Hye Erin Suh</p>
+      <a href ="https://github.com/erinhye/tim" target="_blank"><p>Webhook repository | Client repository</p></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
