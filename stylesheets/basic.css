@@ -30,10 +30,11 @@ body {
   /*background:#E9E9FF;
 -webkit-animation:colour 10s linear infinite;
 -moz-animation:colour 10s linear infinite;*/
+	position: relative;
 
 }
 html, body {
-	/*height:100%;*/
+	height:100%;
 }
 img {
 	width: 100%;
@@ -57,13 +58,16 @@ a:hover, a:active {
 
 
 .container {
+	/*position: absolute;*/
+	overflow: hidden;
   width: 90%;
-  margin: 0.7rem auto;
+  margin: 0rem auto;
   /*border: 0.1rem solid black;*/
   max-width: 1100px;
   height: 100%;
 }
 .header {
+	max-width: 1100px;
 
   position: fixed;
   bottom:1rem;
@@ -96,6 +100,7 @@ a:hover, a:active {
 
 }
 #footer {
+	max-width: 1100px;
   margin-top: 3rem;
   margin: 0;
 
@@ -239,4 +244,25 @@ a:hover, a:active {
 }
 #footer-container a:link, #footer-container a:visited {
 	color: #ffffff;
+}
+
+#emojis {
+	/*border: 1px solid black;*/
+	position: relative;
+	bottom: 12.5rem;
+	/*right: 0rem;*/
+	margin-left:auto;
+	margin-right:0;
+
+	width: 23rem;
+	height: 2.5rem;
+	z-index: 100;
+	text-align: right;
+}
+
+.emoji {
+	width: 2.5rem;
+	display: inline-block;
+	margin-left: 2.5rem;
+	vertical-align: bottom;
 }
