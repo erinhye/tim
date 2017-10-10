@@ -45,10 +45,12 @@
   color : #6D3CFB;
   transition-property: all;
   transition-duration: 0.8s;
+  margin-left: 8.5rem;
 }
 
 .me-chat {
   text-align: right;
+  margin-right: 8.5rem;
 }
 .blank-space {
   width: 3.5rem;
