@@ -265,4 +265,10 @@ a:hover, a:active {
 	display: inline-block;
 	margin-left: 2.5rem;
 	vertical-align: bottom;
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+
+.emoji:hover {
+	transform: rotateZ(360deg);
 }
