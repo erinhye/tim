@@ -63,7 +63,7 @@ function updateRec() {
 
 //send
 var me = 0;
-var tim = 0;
+var tim = 2;
 function send() {
  var text = $("#input").val();
  if (text != '')
