@@ -10,6 +10,13 @@ function ScrollToBottom() {
 }
 // window.scrollTo(0,document.querySelector(".chat-container").scrollHeight);
 
+function css(selector, property, value) {
+    for (var i=0; i<document.styleSheets.length;i++) {//Loop through all styles
+        //Try add rule
+        try { document.styleSheets[i].insertRule(selector+ ' {'+property+':'+value+'}', document.styleSheets[i].cssRules.length);
+        } catch(err) {try { document.styleSheets[i].addRule(selector, property+':'+value);} catch(err) {}}//IE
+    }
+}
 
 function red() {
   var bg = document.getElementsByTagName("body");
@@ -19,10 +26,14 @@ function red() {
   // bg[0].style.backgroundColor = "#F7F7F7";
   footer.style.backgroundColor = "#FF002F";
 
+  css('#footer-container', 'color', '#FF002F')
+
   for (var i = 0; i < bubble.length; i++)
   {
     bubble[i].style.color = "#FF0051";
   }
+  css('.oscar-chats', 'color', '#FF0051')
+
 
 }
 
@@ -34,10 +45,15 @@ function green() {
   // bg[0].style.backgroundColor = "#F7F7F7";
   footer.style.backgroundColor = "#0EC000";
 
+  css('#footer-container', 'color', '#0EC000')
+
+
   for (var i = 0; i < bubble.length; i++)
   {
     bubble[i].style.color = "#11A505";
   }
+  css('.oscar-chats', 'color', '#11A505')
+
 
 }
 
@@ -49,9 +65,15 @@ function white() {
   // bg[0].style.backgroundColor = "#F7F7F7";
   footer.style.backgroundColor = "#9570FF";
 
+  css('#footer-container', 'color', '#9570FF')
+
+
+
   for (var i = 0; i < bubble.length; i++)
   {
     bubble[i].style.color = "#6D3CFB";
   }
+  css('.oscar-chats', 'color', '#6D3CFB')
+
 
 }
