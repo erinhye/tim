@@ -236,7 +236,7 @@ a:hover, a:active {
 
 #footer-container {
 	width: 100%;
-	height: 6rem;
+	height: 9rem;
 	position: fixed;
 	bottom: 0;
 	background-color: #9570FF;
@@ -251,7 +251,7 @@ a:hover, a:active {
 #emojis {
 	/*border: 1px solid black;*/
 	position: relative;
-	bottom: 12.5rem;
+	bottom: 15.5rem;
 	/*right: 0rem;*/
 	margin-left:auto;
 	margin-right:0;
