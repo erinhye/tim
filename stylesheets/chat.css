@@ -14,7 +14,7 @@
   overflow: scroll;
 
   transition-property: all;
-  transition-duration: 3s;
+  transition-duration: 1s;
 
 }
 
@@ -43,6 +43,8 @@
 }
 .oscar-chats {
   color : #6D3CFB;
+  transition-property: all;
+  transition-duration: 0.8s;
 }
 
 .me-chat {
@@ -99,7 +101,7 @@ input {
   font-size : 1.3rem;
   transition: all 0.2s ease-in-out;
   height: 3rem;
-  /*background-color: white;*/
+  background-color: none;
   /*border: 1px solid black;*/
 
   border-style: solid;

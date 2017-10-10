@@ -241,6 +241,8 @@ a:hover, a:active {
 	bottom: 0;
 	background-color: #9570FF;
 	color: #ffffff;
+	transition-property: all;
+  transition-duration: 0.8s;
 }
 #footer-container a:link, #footer-container a:visited {
 	color: #ffffff;
@@ -271,4 +273,5 @@ a:hover, a:active {
 
 .emoji:hover {
 	transform: rotateZ(360deg);
+	cursor: pointer;
 }
