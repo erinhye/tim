@@ -26,7 +26,7 @@ function red() {
   // bg[0].style.backgroundColor = "#F7F7F7";
   footer.style.backgroundColor = "#FF002F";
 
-  css('#footer-container', 'color', '#FF002F')
+  css('#footer-container', 'background-color', '#FF002F')
 
   for (var i = 0; i < bubble.length; i++)
   {
@@ -45,7 +45,7 @@ function green() {
   // bg[0].style.backgroundColor = "#F7F7F7";
   footer.style.backgroundColor = "#0EC000";
 
-  css('#footer-container', 'color', '#0EC000')
+  css('#footer-container', 'background-color', '#0EC000')
 
 
   for (var i = 0; i < bubble.length; i++)
@@ -65,7 +65,7 @@ function white() {
   // bg[0].style.backgroundColor = "#F7F7F7";
   footer.style.backgroundColor = "#9570FF";
 
-  css('#footer-container', 'color', '#9570FF')
+  css('#footer-container', 'background-color', '#9570FF')
 
 
 
