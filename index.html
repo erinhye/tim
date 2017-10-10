@@ -8,7 +8,11 @@
 
  	<link rel="stylesheet" type="text/css" href="stylesheets/basic.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/chat.css">
+  <script src="javascripts/jquery-3.1.0.js"></script>
   <script src="javascripts/script.js"></script>
+  <script src="javascripts/config.js"></script>
+  <script src="javascripts/apiai.js"></script>
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
@@ -17,7 +21,7 @@
 <div class = "container">
   <div class = "header">
 		<a href =""><p id ="title"><img src ="images/logo.svg"></p></a>
-    <p id ="desc">Struggling with talking to him? Just say “help” to show the examples.</p>
+    <p id ="desc">Struggling to talk with him? Just say “help” to show the examples.</p>
   </div>
   <div class = "contents">
     <div class = "chat-container">
@@ -26,72 +30,10 @@
 
       <div class ="oscar-chats">Hi, How are you doing?</div>
 
-      <div class ="blank-space"></div>
-      <div class ="icon me"></div>
-
-
-      <div class ="me-chat">Im doing good</div>
-      <div class ="me-chat">Ummm..a little bit tired..</div>
-
-      <div class ="blank-space"></div>
-      <div class ="icon oscar"></div>
-
-
-      <div class ="oscar-chats">What does it mean?</div>
-      <div class ="oscar-chats">I don't understand.</div>
-
-
-      <div class ="blank-space"></div>
-      <div class ="icon me"></div>
-
-
-      <div class ="me-chat">It means I love you</div>
-
-      <div class ="blank-space"></div>
-      <div class ="icon oscar"></div>
-
-
-      <div class ="oscar-chats">🙄</div>
-      <div class ="oscar-chats">😳</div>
-      <div class ="oscar-chats">You're making me blush</div>
-
-
-      <div class ="blank-space"></div>
-      <div class ="icon me"></div>
-
-
-      <div class ="me-chat">id like to find the book Holes</div>
-
-
-      <div class ="blank-space"></div>
-      <div class ="icon oscar"></div>
-
-
-      <div class ="oscar-chats">OK, I'm gonna find a book called Holes, is it correct?</div>
-
-
-
-      <div class ="blank-space"></div>
-      <div class ="icon me"></div>
-
-
-      <div class ="me-chat">Yass</div>
-
-
-      <div class ="blank-space"></div>
-      <div class ="icon oscar"></div>
-
-
-      <div class ="oscar-chats">the Book called Holes is in the ### , #823.914 S121h. If it isn't what you want, just say 'I'd like to get the 2nd one'!</div>
-
-
-
-
-
     </div>
     <div id = "typing-container">
       <input id ="input"></input>
-      <a href = ""><div id ="send">Send</div></a>
+      <div id ="send" onclick = "send();">Send</div>
       </div>
   </div>
 
