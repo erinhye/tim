@@ -19,6 +19,40 @@
 
 }
 
+@media screen and (min-width: 1px) and (max-width: 650px) {
+    .chat-container {
+      width: 100%;
+      margin-top: 3rem;
+      height: 80vh;/*68 to 57*/
+      /*background-color:blue;*/
+
+    }
+  }
+@media screen and (min-width: 651px) and (max-width: 800px) {
+    .chat-container {
+      width: 90%;
+
+    }
+	}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    .chat-container {
+      width: 100%;
+    }
+	}
+
+  /*iPhone 6 and iPhone 6+ portrait and landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+    .chat-container {
+      width: 100%;
+      max-width: 1000px;
+      margin-top: 3rem;/*3.8 to 7 to 8 to 6 to 8*/
+      height: 80vh;/*68 to 57*/
+      /*background-color:green;*/
+    }
+	}
+
+
+
 .header #desc {
   font-size: 1.3rem;
   text-align: right;
@@ -42,6 +76,13 @@
   width: auto;
   /*margin: 4rem auto;*/
 }
+
+@media screen and (min-width: 1px) and (max-width: 650px) {
+    .oscar-chats, .me-chat {
+      font-size: 1.5rem;/*1.25 or 1.4*/ /*1.4 --> 1.9*/ /*1.8 or 1.7 */
+    }
+  }
+
 .oscar-chats {
   /*color : #6D3CFB;*/
   color : #000000;
@@ -101,6 +142,34 @@
 
 
 }
+
+@media screen and (min-width: 1px) and (max-width: 650px) {
+    #typing-container {
+      width: 100%;
+    }
+  }
+@media screen and (min-width: 651px) and (max-width: 800px) {
+    #typing-container {
+      width: 90%;
+
+    }
+	}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    #typing-container {
+      width: 100%;
+    }
+	}
+
+  /*iPhone 6 and iPhone 6+ portrait and landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+    #typing-container {
+      width: 100%;
+      max-width: 1000px;
+    }
+	}
+
+
+
 input {
   font-size : 1.3rem;
   transition: all 0.2s ease-in-out;
@@ -118,6 +187,20 @@ input {
   /*float: left;*/
   display: inline-block;
 }
+
+@media screen and (min-width: 1px) and (max-width: 650px) {
+    input {
+      width: 55%;
+    }
+  }
+
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+    input {
+      /*width: 55%;*/
+      border-bottom: 0.3rem solid #000000;
+
+    }
+	}
 #send, #send img {
   width : 8rem;
   height: 3rem;

@@ -67,6 +67,26 @@ a:hover, a:active {
   max-width: 1100px;
   height: 100%;
 }
+@media screen and (min-width: 1px) and (max-width: 650px) {
+    .container {
+      width: 90%;
+    }
+  }
+@media screen and (min-width: 651px) and (max-width: 800px) {
+    .container {
+      width: 90%;
+    }
+	}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    .container {
+      width: 90%;
+    }
+	}
+	/*iPhone 6 and iPhone 6+ portrait and landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+	}
+
+
 .header {
 	max-width: 1100px;
 
@@ -248,6 +268,16 @@ a:hover, a:active {
 }
 #footer-container a:link, #footer-container a:visited {
 	color: #ffffff;
+}
+
+#footer-container a:hover, #footer-container a:active {
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 1500px) {
+	#footer-container {
+		height: 15rem;
+	}
 }
 
 #emojis {
