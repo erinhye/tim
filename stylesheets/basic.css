@@ -76,7 +76,7 @@ a:hover, a:active {
   /* center the element */
   right: 0;
   left: 0;
-  top:0.3rem;
+  top:0.7rem; /* 0.3 to 0.5*/
   margin-right: auto;
   margin-left: auto;
   /* give it dimensions */
