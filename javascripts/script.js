@@ -1,6 +1,7 @@
 window.onload= function () {
   var objDiv = document.getElementsByClassName("chat-container")[0];
   objDiv.scrollTop = objDiv.scrollHeight;
+  randomPos();
 
 }
 
@@ -74,6 +75,33 @@ function white() {
     bubble[i].style.color = "#6D3CFB";
   }
   css('.oscar-chats', 'color', '#6D3CFB')
+
+
+}
+
+function randomPos() {
+
+  var emoji = document.getElementsByClassName("emoji");
+
+
+  for (var i = 0; i < emoji.length; i++) {
+    var height = Math.floor(Math.random() * 65) + 5; /*5 to 70*/
+
+    var left = Math.floor(Math.random() * 11) + 1; /*0 to 10*/
+
+    var right = Math.floor(Math.random() * 11) + 85; /*80 to 90*/
+
+    var rand = Math.floor(Math.random() * 2) + 1;
+    console.log(rand);
+    if (rand == 1) {
+      emoji[i].style.left = left+"vw";
+    }
+    else {
+      emoji[i].style.left = right+"vw";
+    }
+    emoji[i].style.top = height+"vh";
+  }
+
 
 
 }

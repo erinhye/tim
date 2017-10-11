@@ -106,7 +106,7 @@ a:hover, a:active {
 
   /*border: 0.1rem solid black;*/
   position: fixed;
-  bottom:4.5rem;
+  bottom:6rem;/*6 to 3.3*/
 
   /* center the element */
   right: 0;
@@ -236,7 +236,7 @@ a:hover, a:active {
 
 #footer-container {
 	width: 100%;
-	height: 9rem;
+	height: 11rem;
 	position: fixed;
 	bottom: 0;
 	background-color: #9570FF;
@@ -251,21 +251,23 @@ a:hover, a:active {
 #emojis {
 	/*border: 1px solid black;*/
 	position: relative;
-	bottom: 15.5rem;
+	bottom: 90vh;/*15.5 to 13*/
 	/*right: 0rem;*/
 	margin-left:auto;
 	margin-right:0;
 
-	width: 23rem;
+	width: 3rem;
 	height: 2.5rem;
 	z-index: 100;
 	text-align: right;
 }
 
 .emoji {
-	width: 2.5rem;
+	position: fixed;
+	width: 4rem;
 	display: inline-block;
-	margin-left: 2.5rem;
+	/*margin-left: 2.5rem;*/
+	margin-bottom: 4rem;
 	vertical-align: bottom;
 	transition-property: all;
 	transition-duration: 1.5s;
