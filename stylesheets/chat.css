@@ -143,6 +143,12 @@
 
 }
 
+@media screen and (min-width: 1500px) {
+	#typing-container {
+		bottom: 20rem;
+	}
+}
+
 @media screen and (min-width: 1px) and (max-width: 650px) {
     #typing-container {
       width: 100%;

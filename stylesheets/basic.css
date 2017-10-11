@@ -141,6 +141,11 @@ a:hover, a:active {
 
 
 }
+@media screen and (min-width: 1500px) {
+	#footer {
+		bottom:11.5rem;
+	}
+}
 #footer p {
   font-size: 1.3rem;
   line-height: 1.7rem;
@@ -276,7 +281,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 1500px) {
 	#footer-container {
-		height: 15rem;
+		height: 17rem;
 	}
 }
 
