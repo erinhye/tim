@@ -29,11 +29,11 @@ function red() {
 
   css('#footer-container', 'background-color', '#FF002F')
 
-  for (var i = 0; i < bubble.length; i++)
-  {
-    bubble[i].style.color = "#FF0051";
-  }
-  css('.oscar-chats', 'color', '#FF0051')
+  // for (var i = 0; i < bubble.length; i++)
+  // {
+  //   bubble[i].style.color = "#FF0051";
+  // }
+  // css('.oscar-chats', 'color', '#FF0051')
 
 
 }
@@ -49,11 +49,11 @@ function green() {
   css('#footer-container', 'background-color', '#0EC000')
 
 
-  for (var i = 0; i < bubble.length; i++)
-  {
-    bubble[i].style.color = "#11A505";
-  }
-  css('.oscar-chats', 'color', '#11A505')
+  // for (var i = 0; i < bubble.length; i++)
+  // {
+  //   bubble[i].style.color = "#11A505";
+  // }
+  // css('.oscar-chats', 'color', '#11A505')
 
 
 }
@@ -70,11 +70,11 @@ function white() {
 
 
 
-  for (var i = 0; i < bubble.length; i++)
-  {
-    bubble[i].style.color = "#6D3CFB";
-  }
-  css('.oscar-chats', 'color', '#6D3CFB')
+  // for (var i = 0; i < bubble.length; i++)
+  // {
+  //   bubble[i].style.color = "#6D3CFB";
+  // }
+  // css('.oscar-chats', 'color', '#6D3CFB')
 
 
 }

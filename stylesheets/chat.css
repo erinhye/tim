@@ -11,8 +11,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  overflow: scroll;
-
+  overflow-y: scroll;
+  overflow-x: hidden;
   transition-property: all;
   transition-duration: 1s;
 
@@ -36,13 +36,14 @@
   margin-left: 2.5rem;
   margin-right: 2.5rem;
 
-  font-size: 1.4rem;/*1.25 or 1.4*/
-  line-height: 2rem;
+  font-size: 1.7rem;/*1.25 or 1.4*/ /*1.4 --> 1.9*/ /*1.8 or 1.7 */
+  line-height: 2.6rem; /* 2 --> 2.6*/
   width: auto;
   /*margin: 4rem auto;*/
 }
 .oscar-chats {
-  color : #6D3CFB;
+  /*color : #6D3CFB;*/
+  color : #000000;
   transition-property: all;
   transition-duration: 0.8s;
   margin-left: 8.5rem;
