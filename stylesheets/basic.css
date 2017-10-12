@@ -320,3 +320,16 @@ a:hover, a:active {
 	transform: rotateZ(360deg);
 	cursor: pointer;
 }
+
+@media screen and (min-width: 1px) and (max-width: 650px) {
+  .emoji {
+    display :none;
+    }
+}
+
+/*iPhone 6 and iPhone 6+ portrait and landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+  .emoji {
+    display :none;
+    }
+}

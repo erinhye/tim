@@ -50,7 +50,11 @@
       /*background-color:green;*/
     }
 	}
-
+@media only screen and (max-width: 320px) {
+  .chat-container {
+    width: 90%;
+    }
+  }
 
 
 .header #desc {
@@ -60,10 +64,20 @@
   margin-top: -2.1rem;
 }
 
-@media only screen and (max-width: 320px) {
-  .chat-container {
-    width: 90%;
-    }}
+
+@media screen and (min-width: 1px) and (max-width: 650px) {
+  .header #desc {
+    display :none;
+    }
+}
+
+/*iPhone 6 and iPhone 6+ portrait and landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+  .header #desc {
+    display :none;
+    }
+}
+
 
 
 .oscar-chats, .me-chat {
