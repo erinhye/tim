@@ -11,7 +11,7 @@
 	font-weight: 600; /*700 / 300 / 600*/
 }
 
-html { font-size: 10px; }
+html { font-size: 8px; }
 
 /*@media only screen
             and (max-width : 320px) {
@@ -33,6 +33,7 @@ body {
 -moz-animation:colour 10s linear infinite;*/
 	position: relative;
 	background-color: #ffffff;
+	-webkit-text-size-adjust: 100%;
 }
 html, body {
 	height:100%;
