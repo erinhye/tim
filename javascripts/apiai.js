@@ -86,7 +86,7 @@ function send() {
       data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
       success: function(data) {
         setResponse(data.result.fulfillment.speech);
-
+        ScrollToBottom();
       },
       error: function() {
        setResponse("Internal Server Error");
