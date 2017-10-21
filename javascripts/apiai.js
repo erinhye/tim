@@ -86,6 +86,28 @@ function send() {
       data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
       success: function(data) {
         setResponse(data.result.fulfillment.speech);
+        var data = data.result.fulfillment.data;
+        console.log(data);
+        if (data != undefined) {
+          console.log("ok");
+          if (data["link"] != undefined){
+            console.log(data["link"]);
+            $(".chat-container").append("<div class ='oscar-chats'><a class ='oscar-link' href ='" + data["link"] + "' target ='_blank'>"+data["linkname"]+"</a></div>");//added the new element
+            // $(".chat-container").append("<div class='oscar-linkbox'><iframe src='"+ data["link"] + "' target='_parent'  width = '300px' height = '200px'/></iframe></div>");//added the new element
+
+            tim++;
+
+
+
+          }//link is abailable
+          else if (data["image"] != undefined) {
+            console.log(data["image"]);
+            $(".chat-container").append("<div class='oscar-image'><img src ='"+ data["image"] +"'/></div>");//added the new element
+
+          }
+
+
+        }
         ScrollToBottom();
       },
       error: function() {
